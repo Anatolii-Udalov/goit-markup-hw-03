@@ -27,6 +27,19 @@ h6 {
     margin-bottom: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1470px;
     padding-left: 15px;
@@ -129,21 +142,12 @@ h6 {
     margin-left: 472px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .main-unnamed-list {
     display: flex;
+}
+
+.feauters-list-item-node {
+    width: calc((100% - 72px) / 4);
 }
 
 .feauters-list-item {
@@ -179,10 +183,6 @@ h6 {
 
 .feauters-section {
     padding: 120px 0
-}
-
-.main-unnamed-list {
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .main-unnamed-list {
@@ -227,6 +227,10 @@ h6 {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.team-list-item-node {
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .team-jod-and-name {
@@ -312,6 +316,10 @@ h6 {
     flex-wrap: wrap;
     justify-content: center;
 
+}
+
+.portfolio-list-item-node {
+    width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-list-item {
