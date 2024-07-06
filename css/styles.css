@@ -131,7 +131,25 @@ h6 {
 
 .main-unnamed-list {
     display: flex;
+}
+
+.Feauters-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .main-button {
@@ -164,19 +182,6 @@ h6 {
     padding: 120px 0
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .main-unnamed-list {
     max-width: 1128px;
