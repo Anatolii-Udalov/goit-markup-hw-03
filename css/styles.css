@@ -134,7 +134,7 @@ h6 {
 }
 
 .feauters-list-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24) / 4);
 
 }
 
@@ -179,7 +179,7 @@ h6 {
     margin-left: 156px;
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24) / 4);
 }
 
 .main-title-two {
@@ -206,7 +206,7 @@ h6 {
     display: flex;
     justify-content: center;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24) / 4);
 }
 
 .team-title {
@@ -234,7 +234,7 @@ h6 {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24) / 4);
 }
 
 .main-workers {
@@ -253,11 +253,18 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px
 }
 
-.container-portfolio {
-    padding-top: 124px;
-    padding-bottom: 120px;
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-app-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -277,7 +284,6 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 32px 226px 8px 16px;
 }
 
 .portfolio-text {
@@ -286,8 +292,6 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-left: 16px;
-    margin-bottom: 32px;
 }
 
 .portfolio-unnamed-list {
@@ -295,7 +299,7 @@ h6 {
     gap: 48px 24px;
     flex-wrap: wrap;
     justify-content: center;
-    width: calc((100% - 24 * 4) \ 6);
+    width: calc((100% - 24 * 2) / 3);
 
 }
 
@@ -309,13 +313,10 @@ h6 {
     color: #4d5ae5;
 }
 
-.container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0
 }
 
 .footer-logo {
@@ -326,6 +327,8 @@ h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -339,5 +342,4 @@ h6 {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
