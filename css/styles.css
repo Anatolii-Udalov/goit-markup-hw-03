@@ -147,7 +147,7 @@ h6 {
 }
 
 .feauters-list-item {
-    flex-basis: calc((100% - 3 * 24) / 4);
+    width: calc((100% - 72px) / 4);
 
 }
 
@@ -214,7 +214,6 @@ h6 {
     display: flex;
     justify-content: center;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-title {
@@ -235,6 +234,7 @@ h6 {
 }
 
 .team-list-item {
+    width: calc((100% - 72px) / 4);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
@@ -242,7 +242,6 @@ h6 {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .main-workers {
@@ -252,6 +251,7 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .main-jobs-workers {
@@ -261,7 +261,6 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 8px
 }
 
 .portfolio {
@@ -272,7 +271,6 @@ h6 {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -292,6 +290,7 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -307,8 +306,11 @@ h6 {
     gap: 48px 24px;
     flex-wrap: wrap;
     justify-content: center;
-    flex-basis: calc((100% - 72px) / 4);
 
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .footer-logo-color {
