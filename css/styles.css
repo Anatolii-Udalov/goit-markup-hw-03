@@ -125,11 +125,9 @@ h6 {
 
 .hero {
     background-color: #2e2f42;
-}
-
-.hero-container {
     padding: 188px 0;
 }
+
 
 .main-title {
     font-weight: 700;
@@ -172,13 +170,14 @@ h6 {
     background-color: #404bbf;
 }
 
-.Feauters-container {
-    padding-top: 120px;
+.Feauters-section {
+    padding: 120px 0
 }
 
 .main-unnamed-list {
     max-width: 1128px;
     margin-left: 156px;
+    gap: 24px;
 }
 
 .main-title-two {
@@ -187,7 +186,7 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .main-text {
@@ -197,18 +196,14 @@ h6 {
 
 .team {
     background-color: #f4f4fd;
-}
-
-.container-our-team {
-    padding-top: 240px;
-    padding-bottom: 120px;
+    padding: 120px 0
 }
 
 .team-unnamed-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-title {
