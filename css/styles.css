@@ -147,7 +147,7 @@ h6 {
 }
 
 .feauters-list-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-button {
@@ -231,7 +231,7 @@ h6 {
 }
 
 .team-list-item {
-    width: calc((100% - 24px * 3) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-list-item {
