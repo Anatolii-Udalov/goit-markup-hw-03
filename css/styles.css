@@ -150,11 +150,6 @@ h6 {
     width: calc((100% - 72px) / 4);
 }
 
-.feauters-list-item {
-    width: calc((100% - 72px) / 4);
-
-}
-
 .main-button {
     background: #4d5ae5;
     font-weight: 500;
