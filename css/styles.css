@@ -104,7 +104,7 @@ h6 {
 .header-unnamed-adress {
     display: flex;
     gap: 40px;
-    padding-left: 232px;
+    padding-left: 252px;
 }
 
 .header-adress-item {
@@ -127,6 +127,35 @@ h6 {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+}
+
+.main-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.main-button {
+    background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin: 48px auto;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 10;
+    cursor: pointer;
+    border: none;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404bbf;
 }
 
 
@@ -168,34 +197,12 @@ h6 {
 }
 
 .main-text {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
-
-.main-button {
-    background: #4d5ae5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    margin: 48px auto;
-    border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    display: block;
-    align-items: center;
-    justify-content: center;
-    gap: 10;
-    cursor: pointer;
-    border: none;
-}
-
-.main-button:hover,
-.main-button:focus {
-    background-color: #404bbf;
-}
-
 
 .team {
     background-color: #f4f4fd;
