@@ -146,6 +146,10 @@ h6 {
     gap: 24px;
 }
 
+.main-unnamed-list:first-child {
+    gap: 0;
+}
+
 .feauters-list-item {
     width: calc((100% - 3 * 24px) \ 4);
 }
