@@ -150,6 +150,7 @@ h6 {
 
 .feauters-list-item {
     width: calc((100% - 3 * 24px) \ 4);
+    padding-left: 0;
 }
 
 .main-button {
@@ -177,7 +178,7 @@ h6 {
 }
 
 .feauters-section {
-    padding: 120px 0;
+    padding: 120px 0 120px 0;
 }
 
 
