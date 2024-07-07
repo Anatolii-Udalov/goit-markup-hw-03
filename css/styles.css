@@ -209,7 +209,6 @@ h6 {
 
 .team-unnamed-list {
     display: flex;
-    justify-content: center;
     gap: 24px;
 }
 
@@ -303,14 +302,13 @@ h6 {
 
 .portfolio-unnamed-list {
     display: flex;
-    gap: 48px 24px;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
 .portfolio-list-item {
-    width: calc((100% - 24px * 2) / 3);
+    width: calc((100% - 2 * 24px) / 3);
 }
 
 .footer-logo-color {
