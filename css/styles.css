@@ -147,7 +147,7 @@ h6 {
 }
 
 .feauters-list-item {
-    width: calc((100% - 3 * 24px) / 4);
+    width: ((100% - 3 * 24px) / 4);
 }
 
 .main-button {
@@ -231,7 +231,7 @@ h6 {
 }
 
 .team-list-item {
-    width: calc((100% - 3 * 24px) / 4);
+    width: ((100% - 3 * 24px) / 4);
 }
 
 .team-list-item {
@@ -310,7 +310,7 @@ h6 {
 }
 
 .portfolio-list-item {
-    width: calc((100% - 2 * 24px) / 3);
+    width: ((100% - 2 * 24px) / 3);
 }
 
 .footer-logo-color {
