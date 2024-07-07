@@ -181,7 +181,7 @@ h6 {
 }
 
 .feauters-list-item {
-    width: 1140px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 
